@@ -1,0 +1,187 @@
+*{
+    margin: 0 0 0 0;
+    font-family: "Almarai", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    box-sizing: border-box;
+}
+.lander{
+    height: 100%;
+    width: 100%;
+}
+.portHeader{
+    display: flex;
+    position: sticky;
+    top: -.5rem;
+    padding-top: 1rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    justify-content: center;
+    gap: 20rem;
+    z-index: 5;
+}
+.portButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 1vw;
+}
+.portHero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 91.24%;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    opacity: 1;
+}
+.heroAbt{
+    opacity: .6;
+    color: white;
+    font-size: 5rem;
+}
+.heroLinks{
+    margin-top: -2.2rem;
+    color: white;
+    font-size: 3rem;
+    opacity: .6;
+    padding-bottom: 70px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 1vw;
+}
+.container h1{
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container hr{
+    border-width: 1rem;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+.bigFlexy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+.smallFlexy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.portFoot{
+    height: 5vw;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin-top: 2.25vw;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 2vw;
+    padding: .5vw 0vw .5vw 0vw;
+    border-radius: 1vw 1vw 0vw 0vw;
+}
+.portFoot a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.specialCase{
+    color:lightskyblue;
+}
+hr{
+    border-color: lightskyblue;
+    opacity: .8;
+}
+.extraFlexy{
+    height: 50vw;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+.curricularFlexy1, .curricularFlexy2, .curricularFlexy3, .curricularFlexy4, .curricularFlexy5{
+    height: 20%;
+    opacity: .8;
+    display: flex;
+    gap: .25vw;
+    padding: .75vw .75vw .75vw .75vw;
+    flex-direction: column;
+}
+.curricularFlexy1{
+    background-color: black;
+    color: white;
+    border-radius: 5% 5% 0% 0%;
+}
+.curricularFlexy2{
+    background-color: lightskyblue;
+}
+.curricularFlexy3{
+    background-color: black;
+    color: white;
+}
+.curricularFlexy4{
+    background-color: lightskyblue;
+}
+.curricularFlexy5{
+    background-color: black;
+    color: white;
+    border-radius: 0% 0% 5% 5%;
+}
+.ech1{
+    font-size: 1.65vw;
+}
+.ecp{
+    font-size: 1.25vw;
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.workFlexy{
+    margin: 1vw 1vw 1vw 0vw;
+    height: 28.49vw;
+    width: 60%;
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+.experienceFlexy{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+    align-items: center;
+}
+.efimg{
+    width: 15%;
+}
