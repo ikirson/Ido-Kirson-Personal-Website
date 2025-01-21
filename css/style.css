@@ -4,6 +4,7 @@
     font-weight: 600;
     font-style: normal;
     box-sizing: border-box;
+    text-align: center;
 }
 .lander{
     height: 100%;
@@ -11,30 +12,31 @@
 }
 .portHeader{
     display: flex;
-    position: sticky;
-    top: -.5rem;
-    padding-top: 1rem;
+    position: fixed;
+    top: -8px;
+    margin-bottom: 200px;
+    padding-top: 16px;
     width: 100%;
     background-color: black;
     color: white;
     align-items: center;
-    padding: 1rem 0 1rem 0;
+    padding: 25px 0 16px 0;
     justify-content: center;
-    gap: 20rem;
+    gap: 320px;
     z-index: 5;
 }
 .portButtons{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
-    font-size: 1vw;
+    gap: 32px;
+    font-size: 18px;
 }
 .portHero{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 91.24%;
+    height: 100%;
     background-image: url("../images/hero.jpg");
     background-size: cover;
     opacity: 1;
@@ -42,13 +44,15 @@
 .heroAbt{
     opacity: .6;
     color: white;
-    font-size: 5rem;
+    text-shadow: 1px 1px 4px pink;
+    font-size: 80px;
 }
 .heroLinks{
-    margin-top: -2.2rem;
+    margin-top: -35px;
     color: white;
-    font-size: 3rem;
+    font-size: 48px;
     opacity: .6;
+    text-shadow: 1px 1px 4px black;
     padding-bottom: 70px;
 }
 a{
@@ -56,20 +60,21 @@ a{
     text-decoration: none;
 }
 .container{
+    margin-top: 85px;
     height: 100%;
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid transparent;
-    margin-bottom: 1vw;
+    margin-bottom: 18px;
 }
 .container h1{
-    font-size: 4rem;
+    font-size: 64px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .container hr{
-    border-width: 1rem;
+    border-width: 16px;
     width: 60%;
     position: relative;
     left: 20%;
@@ -78,7 +83,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 32px;
     width: 60%;
     position: relative;
     left: 20%;
@@ -87,31 +92,37 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    gap: 32px;
+}
+.columnSmallFlexy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 .portFoot{
-    height: 5vw;
+    height: 96px;
     width: 60%;
     position: relative;
     left: 20%;
     display: flex;
     flex-direction: row;
     background-color: black;
-    margin-top: 2.25vw;
+    margin-top: 43.2px;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
-    font-size: 2vw;
-    padding: .5vw 0vw .5vw 0vw;
-    border-radius: 1vw 1vw 0vw 0vw;
+    gap: 48px;
+    font-size: 38.4px;
+    padding: 9.5px 0px 9.5px 0px;
+    border-radius: 19px 19px 0px 0px;
 }
 .portFoot a {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 8px;
     color: white;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 29px;
 }
 .specialCase{
     color:lightskyblue;
@@ -121,7 +132,7 @@ hr{
     opacity: .8;
 }
 .extraFlexy{
-    height: 50vw;
+    height: 960px;
     width: 60%;
     position: relative;
     left: 20%;
@@ -130,8 +141,8 @@ hr{
     height: 20%;
     opacity: .8;
     display: flex;
-    gap: .25vw;
-    padding: .75vw .75vw .75vw .75vw;
+    gap: 4.8px;
+    padding: 14.4px 14.4px 14.4px 14.4px;
     flex-direction: column;
 }
 .curricularFlexy1{
@@ -155,10 +166,10 @@ hr{
     border-radius: 0% 0% 5% 5%;
 }
 .ech1{
-    font-size: 1.65vw;
+    font-size: 31.7px;
 }
 .ecp{
-    font-size: 1.25vw;
+    font-size: 24px;
 }
 .contain{
     display: flex;
@@ -167,21 +178,222 @@ hr{
     align-items: center;
 }
 .workFlexy{
-    margin: 1vw 1vw 1vw 0vw;
-    height: 28.49vw;
+    margin: 19px 19px 490px 0px;
+    height: 547px;
     width: 60%;
     position: relative;
-    left: 10%;
     display: flex;
     flex-direction: column;
-    gap: 1.5vw;
+    gap: 28.8px;
 }
 .experienceFlexy{
     display: flex;
-    flex-direction: row;
-    gap: 1.5vw;
+    flex-direction: column;
+    gap: 28.8px;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
+    gap: 12px;
+}
+.experienceFlexy p{
+    width: 80%;
+    text-align: center;
 }
 .efimg{
     width: 15%;
+}
+.whenSmall{
+    max-width: 100%;
+    height: auto;
+}
+.specCase{
+    width: 100%;
+    height: auto;
+}
+.description{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    font-size: 24px;
+}
+.videoh1{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+@media (max-width: 992px){
+    .portButtons{
+        gap: 10px;
+        font-size: 14px;
+    }
+    .portHero{
+        background-image: url(../images/crlsHero.webp);
+        background-color: rgba(0, 0, 0, 0.3);
+        background-blend-mode: darken;
+        height: 100%;
+    }
+    .smallFlexy{
+        display: none;
+    }
+    .portFoot{
+        gap: 25px;
+    }
+    .portFoot a{
+        font-size: 21px;
+    }
+    .workFlexy{
+        width: 70%;
+        left: 0%;
+        margin-bottom: 200px;
+        margin-top: 0px;
+    }
+    .ech1{
+        font-size: 23px;
+    }
+    .ecp{
+        font-size: 18px;
+    }
+    .heroAbt h1{
+        opacity: .9;
+    }
+    .heroLinks{
+        opacity: .9;
+    }
+}
+@media(min-width: 992px){
+    .columnSmallFlexy{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .portButtons{
+        gap: 15px;
+        font-size: 14px;
+    }
+    .portHeader{
+        gap: 70px;
+    }
+    .heroAbt{
+        font-size: 65px;
+    }
+    .portFoot a{
+        font-size: 17px;
+        gap: 3px;
+    }
+    .whenSmall{
+        max-width: 100%;
+        height: auto;
+    }
+    .columnSmallFlexy{
+        width: 100%;
+    }
+    .experienceFlexy{
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .workFlexy{
+        margin-bottom: 180px;
+    }
+    .experienceFlexy p{
+        width: 80%;
+        text-align: center;
+    }
+}
+@media (max-width: 430px){
+    .portButtons{
+        font-size: 10px;
+    }
+    .portHeader a{
+        font-size: 12px;
+        display: flex;
+        flex-direction: row;
+    }
+    .portHeader{
+        height: 80px;
+        gap: 12px;
+    }
+    .container h1{
+        font-size: 50px;
+    }
+    .portFoot{
+        gap: 10px;
+        width: 75%;
+        left: 12.5%;
+    }
+    .portFoot a{
+        font-size: 14px;
+    }
+    .workFlexy{
+        margin-bottom: 340px;
+    }
+    .columnSmallFlexy{
+        font-size: 12px;
+        gap: 15px;
+    }
+    .ech1{
+        font-size: 16px;
+    }
+    .ecp{
+        font-size: 12px;
+    }
+    .workFlexy{
+        margin-bottom: 220px;
+    }
+    .heroAbt h1{
+        font-size: 70px;
+        color: white;
+        text-shadow: 1px 1px 4px pink;
+    }
+    .portHero{
+        gap: 20px;
+    }
+    .videoh1{
+        font-size: 35px;
+    }
+    .description{
+        font-size: 18px;
+    }
+}
+@media (max-width: 400px){
+    .portButtons{
+        font-size: 10px;
+    }
+    .portHeader a{
+        font-size: 10.5px;
+        display: flex;
+        flex-direction: row;
+    }
+    .portHeader{
+        height: 80px;
+        gap: 12px;
+    }
+    .container h1{
+        font-size: 50px;
+    }
+    .portFoot{
+        gap: 8px;
+        width: 75%;
+        left: 12.5%;
+    }
+    .portFoot a{
+        font-size: 12px;
+    }
+    .workFlexy{
+        margin-bottom: 340px;
+    }
+    .columnSmallFlexy{
+        font-size: 12px;
+        gap: 15px;
+    }
+    .ech1{
+        font-size: 16px;
+    }
+    .ecp{
+        font-size: 11px;
+    }
+    .workFlexy{
+        margin-bottom: 280px;
+    }
 }
