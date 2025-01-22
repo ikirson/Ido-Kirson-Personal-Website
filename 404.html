@@ -1,3 +1,6 @@
+---
+permalink: /404.html
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +10,15 @@
   <script>
     // Define routes and their corresponding file paths
     const routes = {
-      '/extracurriculars': '/html/extracurriculars.html',
-      '/projects': '/html/projects.html',
-      '/about-me': '/html/aboutMe.html',
-      '/work-experience': '/html/workExperience.html',
-    };
+        '/extracurriculars': '/html/extracurriculars.html',
+        '/extracurriculars/': '/html/extracurriculars.html',
+        '/projects': '/html/projects.html',
+        '/projects/': '/html/projects.html',
+        '/about-me': '/html/aboutMe.html',
+        '/about-me/': '/html/aboutMe.html',
+        '/work-experience': '/html/workExperience.html',
+        '/work-experience/': '/html/workExperience.html',
+      };
 
     // Get the current path from the URL
     const path = window.location.pathname;
