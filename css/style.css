@@ -396,4 +396,7 @@ hr{
     .workFlexy{
         margin-bottom: 280px;
     }
+    .portHero{
+        gap: 20px;
+    }
 }
