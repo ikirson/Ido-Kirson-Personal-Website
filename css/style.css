@@ -292,6 +292,8 @@ hr{
     .experienceFlexy{
         margin-bottom: 15px;
         gap: 10px;
+        position: relative;
+        left: 2.5%;
     }
     .workFlexy{
         margin-bottom: 180px;
